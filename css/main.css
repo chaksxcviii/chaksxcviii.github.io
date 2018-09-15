@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+    background-color: #FBFFFE;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav{
+    background: #2C6E71;
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+.nav li{
+    margin: 0;
+    display: inline;
+    padding: 1em;
+    line-height: 55px;
+}
+
+.nav .tabs{
+    float: right;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #232528;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.landing{
+    background-image: url(/img/jason-leem-558155-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    rotate: 90 left;
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.landing h1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 80px;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.about .left{
+    width: 30%;
+    height: 100%;
+    background-color: coral;
+    float: left;
+}
+
+.about .right{
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: violet;
+}
+
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.contact{
+    height: 100vh;
+    background-color: crimson;
+}
