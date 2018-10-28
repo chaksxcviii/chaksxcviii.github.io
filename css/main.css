@@ -5,96 +5,91 @@
 
 ::-webkit-scrollbar { 
     display: none; 
+    grid-template-columns: 12 1fr;
 }
 
-body{
-    background-color: #FBFFFE;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-}
-
-nav{
-    background: #2C6E71;
+.container{
     width: 100%;
-    height: 55px;
-    margin: 0;
-    padding: 0;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-.nav{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline;
-}
-
-.nav li{
-    margin: 0;
-    display: inline;
-    padding: 1em;
-    line-height: 55px;
-}
-
-.nav .tabs{
-    float: right;
-}
-
-.nav a{
-    text-decoration: none;
-    color: #232528;
-    font-weight: 700;
-    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(4,100vh) 30px ;
+    grid-template-areas: 
+    "l l l l l l l l l l l l"
+    "a a a a a a a a a a a a"
+    "p p p p p p p p p p p p"
+    "c c c c c c c c c c c c";
 }
 
 .landing{
-    background-image: url(/img/jason-leem-558155-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    rotate: 90 left;
-    margin: 0;
-    padding: 0;
-    color: black;
     width: 100%;
     height: 100vh;
-}
-
-.landing h1{
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    font-size: 80px;
+    background: #050029;
+    color: #cecece;
+    grid-area: l;
 }
 
 .about{
-    width: 100%;
-    height: 100vh;
+    background: #0aa;
+    grid-area: a;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:  repeat(6,1fr);
+    grid-template-areas:
+    "nnn........."
+    "yyyy....tttt"
+    "yyyy....tttt"
+    "yyyy....tttt"
+    "........bbbb";
 }
 
-.about .left{
-    width: 30%;
-    height: 100%;
-    background-color: coral;
-    float: left;
+.name{
+    background: pink;
+    grid-column: 7 / 11;
+    grid-row: 1/2;
 }
 
-.about .right{
-    width: 70%;
-    height: 100%;
-    float: right;
-    background-color: violet;
+.pic{
+    background: yellow;
+    /* grid-area: y; */
+    grid-column: 2/5;
+    grid-row: 2/6;
 }
+
+
+.text{
+    background: paleturquoise;
+    /* grid-area: t; */
+    grid-column: 6/13;
+    grid-row: 2/5;
+}
+
+.buttons{
+    background: indigo;
+    /* grid-area: b; */
+    grid-column: 8/11;
+    grid-row: 5/6;
+}
+
+
 
 .portfolio{
-    width: 100%;
-    height: 100vh;
-    background-color: skyblue;
+    grid-area: p;
+    background: #0000aa;
 }
 
 .contact{
-    height: 100vh;
-    background-color: crimson;
+    background: #2233aa;
+    grid-area: c;
 }
+
+.sidenav{
+    width: 20%;
+    background:#ead;
+    overflow: hidden;
+    float: left;
+}
+
+
+
+
+
