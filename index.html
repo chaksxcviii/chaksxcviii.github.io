@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <title>Shaquil's Portfolio</title>
 </head>
@@ -14,51 +14,124 @@
     
     <!-- Landing section -->
     <div id="" class="landing">
-        <h1>Welcome</h1>
+        <h1>SRMM</h1>
     </div>
 
     <!-- Navigation -->
-    <!-- <div class="sidenav">
-        <ul>
-            <li><h1>SM</h1></li>
-            <li>about</li>
-            <li>portfolio</li>
-            <li>contact</li>
+    <nav id="topnav" class="topnav">
+        <span class="brand">
+                <a href="#">SM</a>
+        </span>
+        <ul class="tags">
+            <li> <a href="#about">about</a> </li>
+            <li> <a href="#skills">skills</a> </li>
+            <li> <a href="#xp">experience</a> </li>
+            <li> <a href="#projects">projects</a> </li>
+            <li> <a href="#contact">contact</a> </li>
         </ul>
-    </div> -->
+    </nav>
 
     <!-- About section -->
     <div id="about" class="about">
         <section class="pic">
+            <section id="pict">
+
+            </section>
         </section>
-        <section class="name">
-            Hi the nigga!
+        <section class="info">
+            <div class="text">
+                <span>Howdy,</span>
+                <p>
+                    am I a student at the University of Curacao, currently studying
+                    Information & Communication Technology. I like to do design
+                    challenges, create websites, drawing and photography.
+                    I am 20 years old and I'm from a small island in the Caribbean,
+                    CURACAO.
+                </p>
+                <span>Shaquil Maria</span>
+                <p>
+                    that's my name. Welcome to my page, go ahead and enjoy.
+                </p>
+            </div>
         </section>
-        <section class="text">
-            Lorem, ipsum dolor sit amet 
-            consectetur adipisicing elit. 
-            Totam quam quas quis repellat fugiat dolorem. 
-            Est odit reprehenderit tempore, 
-            id omnis harum ut et 
-            consectetur mollitia iste sit ullam molestias?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam vero, architecto maiores nemo blanditiis. Ratione, exercitationem harum praesentium eos totam perspiciatis! Harum dolores nihil ipsum, sit ipsa vel soluta.
-            Illum natus unde eius cumque enim amet odio molestiae odit, fuga incidunt error quisquam asperiores voluptatem corporis minus quidem ullam sunt officia et? Vero itaque facere culpa eum, quos minima.
-            Dolorem praesentium eveniet similique voluptate natus perspiciatis expedita est illum, atque mollitia! Saepe distinctio consequatur dolorem debitis libero veniam voluptatibus omnis, quos nam ipsa nulla dignissimos optio ut beatae tempore.
-            A ipsum veniam optio, dolor obcaecati iusto nulla, cumque doloribus reiciendis molestiae dignissimos ipsam debitis laudantium, aperiam nobis vero dolorem hic rerum explicabo iure? Enim quaerat nihil cupiditate dignissimos accusamus.
+    </div>
+
+    <!-- Skills sectionn -->
+    <div id="skills" class="skills">
+        <h1>Skills</h1>
+        <section class="pie-skills">
+            <div class="skill">html</div>
+            <div class="skill">css</div>
+            <div class="skill">javascript</div>
+            <div class="skill">wordpress</div>
         </section>
-        <section class="buttons">
-            <input type="button" value="resume">
+
+        <section class="lang">
+            <h3>Languages</h3>
+            <p>english</p>
+            <p>dutch</p>
+            <p>spanish</p>
+            <p>papiamentu</p>
+        </section>
+
+    </div>
+
+    <!-- Experience section -->
+    <div id="xp" class="xp">
+        <section class="works">
+            <h3>work experience</h3>
+            <section>
+                Caribbean Blockchain Network
+                Developer
+                September 2018 - Present
+            </section>
+            <section>
+                Digicel Group
+                Junior Sales Representative
+                June 2017 - July 2017
+            </section>
+        </section>
+
+        <section class="edu">
+            <h3>education</h3>
+            <section>
+                University of Curaçao -
+                Dr. Moises da Costa Gomez
+                BASc in Information &
+                Communication Technology
+                2016 - 2021
+            </section>
         </section>
     </div>
 
     <!-- Portfolio section -->
     <div id="projects" class="portfolio">
-        <p>Portfolio section, projects slidedshow</p>
+        <h1>Projects</h1>
+        <div class="contain">
+        <div class="p-section"><h3>Web</h3></div>
+        <div class="p-section"><h3>photography</h3></div>
+        <div class="p-section"><h3>Drawing</h3></div>
+        </div>
     </div>
 
     <!-- Contact section -->
     <div id="contact" class="contact">
-        <p>Contact section</p>
+        <sectionn class="follow">
+            <h3>follow me</h3>
+            <p>linkedin</p>
+            <p>instagram</p>
+            <p>github</p>
+        </sectionn>
+
+        <form action="">
+            <span class="name">Name:<input type="text" placeholder="name"></span>
+            <br>
+            <span class="mail">E-mail:<input type="email" placeholder="e-mail"></span>
+            <br>
+            Message:<textarea name="comment" form="usrform" placeholder="Message"></textarea>
+            <br>
+            <input type="button" value="submit">
+        </form>
     </div>
 
     <div class="footer">
@@ -66,5 +139,7 @@
     </div>
 </div>
 
+
+<script src="js/main.js"></script>
 </body>
 </html>
