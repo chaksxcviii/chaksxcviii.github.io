@@ -5,6 +5,60 @@
 @tailwind utilities;
 
 h1, h2, h3, h4, h5, h6{
-    font-size: xx-large;
+    /* font-size: xx-large; */
     font-weight: bold;
+}
+.progress{
+    width: 0;
+    transition: width 3s;
+}
+
+.x10{
+    width: 10% ;
+    
+}
+
+.x20{
+    width: 20% !important;
+    
+}
+
+.x30{
+    width: 30% !important;
+    
+}
+
+.x40{
+    width: 40% !important;
+    
+}
+
+.x50{
+    width: 50% !important;
+    
+}
+
+.x60{
+    width: 60% !important;
+    
+}
+
+.x70{
+    width: 70% !important;
+    
+}
+
+.x80{
+    width: 80% !important;
+    
+}
+
+.x90{
+    width: 90% !important;
+    
+}
+
+.x100{
+    width: 100% !important;
+    
 }
