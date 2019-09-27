@@ -8,10 +8,10 @@ h1, h2, h3, h4, h5, h6{
     /* font-size: xx-large; */
     font-weight: bold;
 }
-.progress{
+/* .progress{
     width: 0;
     transition: width 3s;
-}
+} */
 
 .x10{
     width: 10% ;
