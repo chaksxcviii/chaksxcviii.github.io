@@ -1,11 +1,11 @@
 import React from "react"
 
-import Landing from "./landing"
-import About from "./about"
-import Projects from "./projects"
-import Contact from "./contact"
+import Landing from "./Landing"
+import About from "./About"
+import Projects from "./Projects"
+import Contact from "./Contact"
 
-export default function layout() {
+export default function Layout() {
   return (
     <div className="layout">
       <Landing />

@@ -1,8 +1,8 @@
 import React from "react"
-import Project from "./project"
+import Project from "./Project"
 import Data from "../utils/Data"
 
-export default function projects() {
+export default function Projects() {
   if (Data.projects.length >= 1) {
     return (
       <div

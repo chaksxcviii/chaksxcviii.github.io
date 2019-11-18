@@ -2,7 +2,7 @@ import React from "react"
 import { FaSkullCrossbones } from "react-icons/fa"
 import Data from "../utils/Data"
 
-export default function icon(props) {
+export default function Icon(props) {
   let type = props.type
   if (type === "tech") {
     return (

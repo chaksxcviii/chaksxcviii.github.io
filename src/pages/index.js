@@ -1,9 +1,8 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import "../utils/global.css"
 import Header from "../components/Header"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 const IndexPage = () => (
   <div>

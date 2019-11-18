@@ -1,7 +1,7 @@
 import React from "react"
 import { Element } from "react-scroll"
 
-export default function landing() {
+export default function Landing() {
   return (
     <Element name="/">
       <div className=" block h-screen pt-20 md:flex align-stretch">

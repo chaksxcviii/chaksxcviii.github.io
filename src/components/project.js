@@ -1,9 +1,8 @@
 import React from "react"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 import { IconContext } from "react-icons"
-// import Data from "../utils/Data"
 
-export default function project(props) {
+export default function Project(props) {
   return (
     <div className="bg-blueish max-w-sm overflow-hidden shadow-lg">
       <img

@@ -1,9 +1,9 @@
 import React from "react"
 // import data from "../utils/Data"
 import { Element } from "react-scroll"
-import Icon from "./icon"
+import Icon from "./Icon"
 
-export default function about() {
+export default function About() {
   return (
     // <div id="about" className="h-screen lg:pt-40">
     <Element name="about">
