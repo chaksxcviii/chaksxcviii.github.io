@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "shaquil-maria-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Shaquil Maria <shaquil.maria@gmail.com>",
   "dependencies": {
+    "classnames": "^2.2.6",
     "gatsby": "^2.17.11",
     "gatsby-image": "^2.2.31",
     "gatsby-plugin-manifest": "^2.2.27",
@@ -12,11 +13,15 @@
     "gatsby-plugin-react-helmet": "^3.1.14",
     "gatsby-plugin-sharp": "^2.2.37",
     "gatsby-source-filesystem": "^2.1.36",
+    "gatsby-theme-tailwindcss": "^1.0.2",
     "gatsby-transformer-sharp": "^2.3.3",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
+    "react-burger-menu": "^2.6.12",
     "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "react-scroll": "^1.7.14"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
